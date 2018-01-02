@@ -11,11 +11,14 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
 import javax.swing.*;
-import javax.swing.event.*;
 
 public class LonTicTacToePanel extends JPanel implements MouseListener
 {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	//Setting up the images.
 	ImageIcon bilog = new ImageIcon(this.getClass().getResource("/images/ow.jpg"));
 	ImageIcon ekis = new ImageIcon(this.getClass().getResource("/images/eks.jpg"));
