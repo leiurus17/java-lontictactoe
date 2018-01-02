@@ -1,0 +1,1 @@
+Just extract the .zip file to access the .jar file.
