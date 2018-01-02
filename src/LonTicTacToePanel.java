@@ -17,11 +17,11 @@ public class LonTicTacToePanel extends JPanel implements MouseListener
 {
 
 	//Setting up the images.
-	ImageIcon bilog = new ImageIcon("/images/ow.jpg");
-	ImageIcon ekis = new ImageIcon("/images/eks.jpg");
+	ImageIcon bilog = new ImageIcon(this.getClass().getResource("/images/ow.jpg"));
+	ImageIcon ekis = new ImageIcon(this.getClass().getResource("/images/eks.jpg"));
 	
-	ImageIcon bilogWin = new ImageIcon("/images/ow_raw.jpg");
-	ImageIcon ekisWin = new ImageIcon("/images/eks_raw.jpg");
+	ImageIcon bilogWin = new ImageIcon(this.getClass().getResource("/images/ow_raw.jpg"));
+	ImageIcon ekisWin = new ImageIcon(this.getClass().getResource("/images/eks_raw.jpg"));
 	
 	
 	//This variable determines the current number of turns in the game.
